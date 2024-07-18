@@ -65,8 +65,29 @@
   background-color: rgba(91, 65, 71, 0.57);
   height: 2rem;
   width: 2rem;
+  box-sizing: border-box;
 }
-
+.with_bombs {
+  /*with_bombs class is only for testing&developing */
+  background-color: blueviolet;
+}
+.bomb_opened {
+  border: 2px groove red;
+  background-image: url('../src/resources/target.svg');
+  background-size: contain;
+  box-shadow: 0px 0px 2px 2px darkred;
+}
+.fired {
+ /* border: 2px groove red; */
+  background-image: url('../src/resources/fired.svg');
+  background-size: contain;
+  background-color: red;
+  box-shadow: 0px 0px 2px 2px darkred;
+}
+.opened {
+  border: 2px solid red ;
+  box-shadow: 0px 0px 2px 2px darkred;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
