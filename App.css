@@ -73,13 +73,14 @@
 }
 .bomb_opened {
   border: 2px groove red;
-  background-image: url('../src/resources/target.svg');
+  background-image: url('./target.svg');
   background-size: contain;
+  background-color: red;
   box-shadow: 0px 0px 2px 2px darkred;
 }
 .fired {
- /* border: 2px groove red; */
-  background-image: url('../src/resources/fired.svg');
+  border: 2px groove red;
+  background-image: url('./fired.svg');
   background-size: contain;
   background-color: red;
   box-shadow: 0px 0px 2px 2px darkred;
